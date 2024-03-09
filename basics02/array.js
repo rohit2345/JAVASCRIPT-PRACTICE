@@ -37,3 +37,7 @@ console.log("myFish after:", myFish);
 // myFish after: ['clown', 'mandarin', 'surgeon']
 
 console.log("Removed this element:", shifted);
+
+const arr1 = [0, 1, 2, [3, 4]];
+
+console.log(arr1.flat());
