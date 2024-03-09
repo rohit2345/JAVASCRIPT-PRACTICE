@@ -42,9 +42,10 @@ console.log(typeof anotherId);
 //stack (primitive) whenever stack is used we will get the copy of the value
 let name = "Family Guy";//Original value
 let diffName = name; //copied original
-console.log(name);
+console.log(diffName);
 diffName = "friends";
 console.log(diffName);
+console.log(name);
 
 //heap (non primitive)whenever heap is used we will get the reference of the value
 let userOne = {
