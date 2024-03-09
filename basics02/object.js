@@ -13,19 +13,19 @@ const user = {
 
 }
 
-console.log(user.age);
-console.log(user["name"]);
+// console.log(user.age);
+// console.log(user["name"]);
 
 user.name = "mahesh";
-console.log(user);
+// console.log(user);
 // Object.freeze(user)
 user.name= "Ajit";
-console.log(user);
+// console.log(user);
 
 user.greeting = function(){
     console.log("Hello JS Learner");
 }
-console.log(typeof user.greeting());
+// console.log(typeof user.greeting());
 
 ////Objects
 
@@ -33,8 +33,8 @@ console.log(typeof user.greeting());
 const uber = {};
 uber.id = 123;
 uber.name = "mohit";
-console.log(uber);
-
+// console.log(uber);
+//nested object
 const regularUser = {
     email: "abs@gmail.com",
     fullname: {
@@ -53,7 +53,7 @@ const obj2 = {3:"a",4:"b"}
 // const obj3 = {obj1,obj2}
 // const obj3 = Object.assign(obj1,obj2)
 const obj3 = {...obj1,...obj2}
-console.log(obj3);
+// console.log(obj3);
 
 
 //Array of objects
@@ -70,9 +70,19 @@ const ola = [
 ]
 
 ola[1].email = "chaiwithcode@.com"
-console.log(ola);
-console.log(Object.keys(uber));
-console.log(Object.values(uber));
-console.log(Object.entries(uber));
+// console.log(ola);
+// console.log(Object.keys(uber));
+// console.log(Object.values(uber));
+// console.log(Object.entries(uber));
 
+
+const course = {
+    courseName: "JavaScript",
+    price: "1000",
+    instructor: "hitesh"
+}
+// course.courseName
+const {price: inr} = course;
+// console.log(price);
+console.log(inr);
 
