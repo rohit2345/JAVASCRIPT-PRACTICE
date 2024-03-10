@@ -13,19 +13,19 @@ const user = {
 
 }
 
-// console.log(user.age);
-// console.log(user["name"]);
+console.log(user.age);
+console.log(user["name"]);
 
 user.name = "mahesh";
-// console.log(user);
-// Object.freeze(user)
+console.log(user);
+Object.freeze(user)
 user.name= "Ajit";
-// console.log(user);
+console.log(user);
 
 user.greeting = function(){
     console.log("Hello JS Learner");
 }
-// console.log(typeof user.greeting());
+console.log(typeof user.greeting());
 
 ////Objects
 
@@ -33,7 +33,7 @@ user.greeting = function(){
 const uber = {};
 uber.id = 123;
 uber.name = "mohit";
-// console.log(uber);
+console.log(uber);
 //nested object
 const regularUser = {
     email: "abs@gmail.com",
@@ -45,7 +45,7 @@ const regularUser = {
 
     }
 }
-// console.log(regularUser.fullname.userName.lastName);
+console.log(regularUser.fullname.userName.lastName);
 
 const obj1 = {1:"a",2:"b"}
 const obj2 = {3:"a",4:"b"}
@@ -70,10 +70,10 @@ const ola = [
 ]
 
 ola[1].email = "chaiwithcode@.com"
-// console.log(ola);
-// console.log(Object.keys(uber));
-// console.log(Object.values(uber));
-// console.log(Object.entries(uber));
+console.log(ola);
+console.log(Object.keys(uber));
+console.log(Object.values(uber));
+console.log(Object.entries(uber));
 
 
 const course = {

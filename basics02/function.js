@@ -36,7 +36,7 @@ price:10
 const myNewArray = [200, 400, 100, 600]
 
 function returnSecondValue(getArray){
-    return getArray[3]
+    return getArray;
 }
 
 console.log(returnSecondValue(myNewArray));
