@@ -38,4 +38,4 @@ chai()
 const addTwo = (num1, num2) => ({username: "rakes",age: num1,heigh: num2})
 
 
-console.log(addTwo(2,3))
+console.log(addTwo(26,6))
