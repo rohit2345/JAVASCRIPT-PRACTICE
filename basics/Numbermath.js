@@ -23,7 +23,8 @@ console.log(Map);
 // console.log(Math.min(2,4,5,1,3));
 // console.log(Math.max(19,28,123,7));
 
-let min = 10;
+let min = 10.345
 let max = 20
 
 console.log(Math.round(Math.random()*(max - min)) + min);
+console.log(Math.round(min));
