@@ -17,9 +17,13 @@ let float = 1234.2345
 console.log(Math);
 console.log(Map);
 
-console.log(Math.round(44.25));
-console.log(Math.ceil(3.1));
-console.log(Math.floor(3.9));
-console.log(Math.min(2,4,5,1,3));
-console.log(Math.max(19,28,123,7));
+// console.log(Math.round(44.25));
+// console.log(Math.ceil(3.1));
+// console.log(Math.floor(3.9));
+// console.log(Math.min(2,4,5,1,3));
+// console.log(Math.max(19,28,123,7));
 
+let min = 10;
+let max = 20
+
+console.log(Math.round(Math.random()*(max - min)) + min);
