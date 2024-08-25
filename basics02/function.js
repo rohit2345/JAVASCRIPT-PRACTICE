@@ -41,3 +41,23 @@ function returnSecondValue(getArray){
 
 console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200, 400, 500, 1000]));
+
+// for better understanding
+function useState() {
+    let state =0;
+    function setState(newValue) {
+       state = newValue;   // state will store 5
+    }
+    function getState() {
+       return state;
+    }
+    return [getState, setState];
+}
+const [getCount1, setCount1]= useState();
+const [getCount2, setCount2]= useState();
+
+setCount1(5);
+setCount2(10);
+
+console.log(getCount1());
+console.log(getCount2());
